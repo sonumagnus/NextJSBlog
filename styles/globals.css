@@ -1,0 +1,323 @@
+.markdown-content {
+  font-family: "charter";
+}
+
+.markdown-content h1 {
+  font-size: 28px;
+}
+
+.markdown-content h2 {
+  font-size: x-large;
+  color: darkgray;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.markdown-content p {
+  margin-bottom: 1rem;
+  font-size: large;
+}
+.markdown-content li{
+  font-size: large;
+  font-weight: 500;
+}
+
+/* latin */
+@font-face {
+  font-family: "charter";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/charter/charter-400-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "charter";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/charter/charter-400-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "charter";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/charter/charter-400-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "charter";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/charter/charter-400-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "charter";
+  font-weight: 700;
+  font-style: italic;
+  src: url(/fonts/charter/charter-700-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "charter";
+  font-weight: 700;
+  font-style: italic;
+  src: url(/fonts/charter/charter-700-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "charter";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/charter/charter-700-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "charter";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/charter/charter-700-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "fell";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/fell/fell-400-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "fell";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/fell/fell-400-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "fell";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/fell/fell-400-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "fell";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/fell/fell-400-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 300;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-300-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 300;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-300-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 300;
+  font-style: normal;
+  src: url(/fonts/sohne-300-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 300;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-300-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-400-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-400-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-400-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-400-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 500;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-500-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 500;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-500-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 500;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-500-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 500;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-500-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 700;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-700-italic.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 700;
+  font-style: italic;
+  src: url(/fonts/sohne/sohne-700-italic-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+/* latin */
+@font-face {
+  font-family: "sohne";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-700-normal.woff) format("woff");
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
+    U+2022, U+2026;
+}
+
+/* rest */
+@font-face {
+  font-family: "sohne";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/sohne/sohne-700-normal-1.woff) format("woff");
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
+    U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
+
+@font-face {
+  font-family: "macan";
+  font-weight: 700;
+  src: url(/fonts/macan/macan-bold.502483a.woff2) format("woff2");
+}
+@font-face {
+  font-family: "macan";
+  font-weight: 600;
+  src: url(/fonts/macan/macan-semibold.d147812.woff2) format("woff2");
+}
+@font-face {
+  font-family: "macan";
+  font-weight: 400;
+  src: url(/fonts/macan/macan-regular.3d263b5.woff2) format("woff2");
+}
+@font-face {
+  font-family: "macan";
+  font-weight: 300;
+  src: url(/fonts/macan/macan-light.9b72a31.woff2) format("woff2");
+}
