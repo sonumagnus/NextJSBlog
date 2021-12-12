@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
-import { GrTwitter } from "react-icons/gr";
-import { GrInstagram } from "react-icons/gr";
-import { MdMarkEmailUnread } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -18,10 +18,10 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between w-2/5 text-gray-500 md:space-y-0 space-y-3">
         <div className="flex space-x-6">
-          <GrTwitter className="w-5 h-5" />
-          <FaFacebookF className="w-5 h-5" />
-          <GrInstagram className="w-5 h-5" />
-          <MdMarkEmailUnread className="w-5 h-5" />
+          <FaTwitterSquare className="w-6 h-6" />
+          <FaFacebookSquare className="w-6 h-6" />
+          <FaInstagramSquare className="w-6 h-6" />
+          <MdEmail className="w-6 h-6" />
         </div>
         <div className="w-64 md:w-auto flex items-center space-x-3 md:space-x-0 hover:text-gray-800 font-semibold font-macan">
           <Link href="/privacy">
@@ -29,7 +29,7 @@ export default function Footer() {
               Privacy Policy
             </a>
           </Link>
-          <Link href="#">
+          <Link href="/contact">
             <a className="p-2 px-3 hover:bg-gray-100 rounded-full">
               Contact Us
             </a>

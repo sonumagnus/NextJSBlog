@@ -18,7 +18,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
 
           <div className="grid grid-cols-1 gap-5 py-5">
             {posts.map((post, index) => (
-              <BlogPost key={index} post={post} />
+              <BlogPost key={post} post={post} />
             ))}
           </div>
           <Pagination currentPage={currentPage} numPages={numPages} />

@@ -4,8 +4,8 @@ import { authImgLink } from "@/lib/AuthImgLink";
 
 export default function BlogPost({ post, index, compact }) {
   return (
-    <div className="flex items-center font-sohne">
-      <div className="max-w-[250px] md:max-w-[448px] mr-5">
+    <div className="flex justify-between items-center font-sohne">
+      <div className="md:max-w-[448px] mr-5">
         <div className="flex text-[13px] font-medium mb-2">
           {!compact && (
             <Image

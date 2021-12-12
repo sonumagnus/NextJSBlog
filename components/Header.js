@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import NavLinksList from "./HeaderComps/NavLinksList.js";
 import SearchBox from "./HeaderComps/SearchBox.js";
 import { HiMenuAlt1 } from "react-icons/hi";
@@ -43,7 +44,7 @@ export default function Header({ categories }) {
       <div className="md:flex items-center justify-between w-2/5 hidden">
         <NavLinksList />
         <button className="px-3.5 py-1.5 border-b text-sm text-gray-600 font-medium border border-gray-400 hover:text-gray-200 hover:bg-gray-500 rounded duration-500">
-          Contact
+          <Link href="/contact">Contact</Link>
         </button>
       </div>
       {showMenu && (
